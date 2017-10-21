@@ -3,3 +3,4 @@ CS 196 project
 David Raskin
 Ashutosh Ukey
 Alice Fang
+Hyunsoo Lee
