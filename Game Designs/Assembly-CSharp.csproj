@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Behavior.cs" />
      <None Include="Assets\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
      <None Include="Assets\VertexColorTrees\Shaders\VertexColorUnlit.shader" />
+     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
