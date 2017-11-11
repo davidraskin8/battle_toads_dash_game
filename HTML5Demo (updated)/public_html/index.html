@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+        <script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/basecss.css">
+        <style type="text/css">
+            ul {list-style-type: none}
+            img {
+                margin-right: 20px; 
+                float:left; 
+                border: 1px solid;
+            }
+        </style>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#infolist").accordion({
+                    autoHeight: false
+                });
+            });
+        </script>
+    </head>
+
+
+    <body>
+        <div id="infolist"> 
+            <h3><a href="#">Mary Adams</a></h3>
+            <div>
+                <img src="pix/maryadams.jpg" alt="Mary Adams">
+                <ul>
+                    <li><h4>Vice President</h4></li>
+                    <li><b>phone:</b> x8234</li>
+                    <li><b>office:</b> 102 Bldg </li>
+                    <li><b>email:</b> madams.company.com</li>
+                </ul>
+                <br clear ="all">
+            </div>
+
+            <h3><a href="#">John Matthews</a></h3>
+            <div>
+                <ul>
+                    <li><h4>Middle Manager</h4></li>
+                    <li><b>phone:</b> x3082</li>
+                    <li><b>office:</b> 307 Bldg 1</li>
+                    <li><b>email:</b> j.matthews@company.com</li>
+                </ul>
+                <br clear="all">
+            </div>
+
+            <h3><a href="#">Sam Jackson</a></h3>
+            <div>
+                <img src="pix/samjackson.jpg" alt="Sam Jackson">
+                <ul>
+                    <li><h4>Deputy Assistant</h4></li>
+                    <li><b>phone:</b> x3494</li>
+                    <li><b>office:</b> 457 Bldg 2</li>
+                    <li><b>email:</b> s.jackson@company.com</li>
+                </ul>
+                <br clear="all">
+            </div>
+
+            <h3><a href="#">Jennifer Brooks</a></h3>
+            <div>
+                <img src="pix/jeniferapplethwaite.jpg" alt="Jenifer Applethwaite">
+                <ul>
+                    <li><h4>Senior Technician</h4></li>
+                    <li><b>phone:</b> x9430</li>
+                    <li><b>office:</b> 327 Bldg 2</li>
+                    <li><b>email:</b> j.brooks@company.com</li>
+                </ul>
+                <br clear="all">
+            </div>
+
+        </div>    
+    </body>
+</html>
