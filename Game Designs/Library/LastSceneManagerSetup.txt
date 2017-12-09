@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Characters.unity
+- path: Assets/Free 2D Adventure Beach Pack/Example/Example.unity
   isLoaded: 1
   isActive: 1

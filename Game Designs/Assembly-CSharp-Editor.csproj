@@ -57,6 +57,7 @@
      <Compile Include="Assets\Unitycoding\Sprite Maker\Scripts\Editor\SpritePackerUtility.cs" />
      <Compile Include="Assets\Unitycoding\Sprite Maker\Scripts\Editor\TextureUtility.cs" />
      <None Include="Assets\Unitycoding\Sprite Maker\Changelog.txt" />
+     <None Include="Assets\Alienated\Documentation.txt" />
      <None Include="Assets\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
      <None Include="Assets\Unitycoding\Sprite Maker\ReadMe.txt" />
      <None Include="Assets\VertexColorTrees\Shaders\VertexColorUnlit.shader" />
