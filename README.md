@@ -1,7 +1,14 @@
 <h1> FarmAnimalDash </h1>
 
 <h2> Overview </h2>
-<p> FarmAnimalDash is a 2D platform game. The story behind this game is that some farm animals are trying to escape their farm to avoid being eaten by the farmer and his family. The game features a chicken as the player and spikes and water as obstacles. The chicken is able to jump/fly up and down and collect coins, which increment the total game score by 1. The goal of the game is to get as many points as possible so that the chicken can escape to a safe land. </p> 
+<p> FarmAnimalDash is a 2D platform game. The story behind this game is that some farm animals are trying to escape their farm to avoid being eaten by the farmer and his family. The game features a chicken as the player and spikes and water as obstacles. The chicken is able to jump/fly up and down and collect coins. The goal of the game is to get as many points as possible and pass the level so that the chicken can escape to a safe land. </p> 
+<h2> Controls and Objects </h2>
+<ul>
+  <li> spacebar to jump </li>
+  <li> powerup: carrot grants double jump</li>
+  <li> coins: increment score by 1 </li>
+  <li> obstacles: water and spikes </li>
+</ul>
 
 <h2> Team Members </h2>
 <ul>
