@@ -15,7 +15,7 @@
 <h2>Installation Instructions</h2> 
 <ol>
   <li> go to github </li>
-  <li>go to FarmAnimalDash</li>
+  <li>go to battle_toads_dash_game</li>
   <li>open Battle_Toads_Player folder </li>
   <li>open WebBuildCS196 folder</li>
   <li>open index.html in a web browser besides Chrome (yes even internet explorer)</li>
