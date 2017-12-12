@@ -11,12 +11,14 @@
   <li>Alice Fang</li>
   <li>Hyunsoo Lee</li>
   <li>Jai Pranav Konuru</li>
-
+</ul>
 <h2>Installation Instructions</h2> 
 <p>open the game with unity web player using a web browser besides Chrome (yes even internet explorer)</p>
 <h2> Known Issues <h2>
-<li> sometimes the jump function (spacebar) is laggy or unresponsive and you die</li>
-<li> sometimes double jump doesn't register and you die</li>
-<li> sometimes the player gets stuck at certain parts of the platform</li>
+<ul>
+  <li> sometimes the jump function (spacebar) is laggy or unresponsive and you die</li>
+  <li> sometimes double jump doesn't register and you die</li>
+  <li> sometimes the player gets stuck at certain parts of the platform</li>
+</ul>
 
 
