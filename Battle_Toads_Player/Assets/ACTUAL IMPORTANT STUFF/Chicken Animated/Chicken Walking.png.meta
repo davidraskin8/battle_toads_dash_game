@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: ce816130781564001b6270dfc3ad8101
+timeCreated: 1513043889
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Armature|Walk (0.0, 0.0) 0000
+    21300002: Armature|Walk (0.0, 0.0) 0001
+    21300004: Armature|Walk (0.0, 0.0) 0002
+    21300006: Armature|Walk (0.0, 0.0) 0003
+    21300008: Armature|Walk (0.0, 0.0) 0004
+    21300010: Armature|Walk (0.0, 0.0) 0005
+    21300012: Armature|Walk (0.0, 0.0) 0006
+    21300014: Armature|Walk (0.0, 0.0) 0007
+    21300016: Armature|Walk (0.0, 0.0) 0008
+    21300018: Armature|Walk (0.0, 0.0) 0009
+    21300020: Chicken Walking_0
+    21300022: Chicken Walking_1
+    21300024: Chicken Walking_2
+    21300026: Chicken Walking_3
+    21300028: Chicken Walking_4
+    21300030: Chicken Walking_5
+    21300032: Chicken Walking_6
+    21300034: Chicken Walking_7
+    21300036: Chicken Walking_8
+    21300038: Chicken Walking_9
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chicken Walking_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 725
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chicken Walking_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 507
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chicken Walking_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 290
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chicken Walking_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 290
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chicken Walking_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 290
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chicken Walking_5
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 292
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chicken Walking_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 78
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chicken Walking_7
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 76
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chicken Walking_8
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 74
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chicken Walking_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 71
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

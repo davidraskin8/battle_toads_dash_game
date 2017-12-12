@@ -1,0 +1,32 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="QuitGame">
+			<method name="Quit"/>
+		</type>
+		<type fullname="SceneFader">
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+			<method name="FaidTo"/>
+		</type>
+		<type fullname="PauseGame">
+			<method name="Pause"/>
+			<method name="Resume"/>
+			<method name="Resume"/>
+		</type>
+	</assembly>
+</linker>
