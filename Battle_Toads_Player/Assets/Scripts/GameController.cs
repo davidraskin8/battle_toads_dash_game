@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
+    //All score texts
     public static Text scoreText;
     public static Text scoreText2;
     public Text pauseGameText;
@@ -19,7 +20,7 @@ public class GameController : MonoBehaviour {
         scoreText.text = "Score: 0";
     }
 
-	// Use this for initialization
+    //Add score to all scoreTexts
     public void AddScore()
     {
         score += 1;

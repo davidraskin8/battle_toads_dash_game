@@ -29,43 +29,33 @@ public class PowerUp : MonoBehaviour {
     {   
         
         Debug.Log("Power up picked up");
-        if (_player.GetComponent<PlayerScript>() != null)
+
+        if (_player.GetComponent<AnimalScript>() != null)
         {
-            PlayerScript playerScript = _player.GetComponent<PlayerScript>();
+            AnimalScript playerScript = _player.GetComponent<AnimalScript>();
+
+            //allow the player to double jump
             playerScript.setDoubleJump(true);
 
+            //inistantiate the powerup image in the panel with the PowerupUI script
             PowerupUI uiScript = powerUpPanel.GetComponent<PowerupUI>();
             uiScript.InstantiatePowerUp(toInstantiate, powerUpTime);
 
+            //disable collision and rendering of the powerup
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<BoxCollider2D>().enabled = false;
 
+            //the player only has the power up for a certain amount of time
             yield return new WaitForSeconds(powerUpTime);
 
             playerScript.setDoubleJump(false);
 
-            uiScript.DestroyPowerUp();
-        }
-        else if (_player.GetComponent<ChickenScript>() != null)
-        {
-            ChickenScript playerScript = _player.GetComponent<ChickenScript>();
-            playerScript.setDoubleJump(true);
-
-            PowerupUI uiScript = powerUpPanel.GetComponent<PowerupUI>();
-            uiScript.InstantiatePowerUp(toInstantiate, powerUpTime);
-
-            GetComponent<SpriteRenderer>().enabled = false;
-            GetComponent<BoxCollider2D>().enabled = false;
-
-            yield return new WaitForSeconds(powerUpTime);
-
-            playerScript.setDoubleJump(false);
-
+            //destroy the powerup
             uiScript.DestroyPowerUp();
         }
 
 
-
+        //Destroy the powerup
         Destroy(gameObject);
     }
 }

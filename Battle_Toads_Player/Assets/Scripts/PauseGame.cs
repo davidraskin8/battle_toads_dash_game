@@ -10,12 +10,12 @@ public class PauseGame : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Escape))
 		    if(canvas.gameObject.activeInHierarchy == false)
             {
-                canvas.gameObject.SetActive(true);
-                Time.timeScale = 0;
+                //activate pause canvas and stop time
+                Pause();
             } else
             {
-                canvas.gameObject. SetActive(false);
-                Time.timeScale = 1;
+                //deactivate pause canvas and start time
+                Resume();
             }
 	}
 

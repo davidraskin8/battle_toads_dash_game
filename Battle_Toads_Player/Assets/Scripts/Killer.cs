@@ -17,14 +17,12 @@ public class Killer : MonoBehaviour {
 
         Rigidbody2D playerRB = other.gameObject.GetComponent<Rigidbody2D>();
         other.gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        if (other.gameObject.GetComponent<PlayerScript>() != null)
+
+        if (other.gameObject.GetComponent<AnimalScript>() != null)
         {
-            other.gameObject.GetComponent<PlayerScript>().enabled = false;
+            other.gameObject.GetComponent<AnimalScript>().enabled = false;
         }
-        else if (other.gameObject.GetComponent<ChickenScript>() != null)
-        {
-            other.gameObject.GetComponent<ChickenScript>().enabled = false;
-        }
+
         playerRB.gravityScale = 0;
         playerRB.velocity = new Vector2(0, 1);
         
